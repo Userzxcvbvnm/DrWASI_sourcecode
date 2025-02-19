@@ -1,3 +1,5 @@
+Test cases: executedir/testcasepool/testcases
+
 Source code used for generating test cases: testcasegen
 
 Source code used for executing test cases: executor
