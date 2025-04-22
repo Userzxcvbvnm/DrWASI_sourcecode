@@ -143,14 +143,9 @@ class ExEntrance:
 
 
 if __name__ == "__main__":
-    start_time = time.time()
-    
+
     ex = ExEntrance()
-    
-    for i in range(1, 2):
-        formatted_num = "{:05d}".format(i)
-        ex.exe(cfilename=f"sched_yield_{formatted_num}", perflag=True) 
-    
-    end_time = time.time()
-    execution_time = end_time - start_time  
-    print(f"Execution Time for Phase II: {execution_time:.2f} s")  
+    ex.start_exe_seeds()
+
+
+
